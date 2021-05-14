@@ -4,11 +4,7 @@ const cardAdapter = createEntityAdapter({
   selectId: (card) => card.id,
 });
 
-export const { selectAll: selectCards } = cardAdapter.getSelectors(
-  (state) => state.cardsReducer.cards,
-);
-
-export const { selectIds } = cardAdapter.getSelectors(
+export const { selectAll: selectCards, selectIds } = cardAdapter.getSelectors(
   (state) => state.cardsReducer.cards,
 );
 
