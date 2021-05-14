@@ -10,4 +10,4 @@ ReactDom.render(
   document.getElementById('root'),
 );
 
-// Commit para teste de feature
+// commit para test de hotfix
